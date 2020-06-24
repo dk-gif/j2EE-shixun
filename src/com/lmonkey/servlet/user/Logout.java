@@ -31,7 +31,7 @@ public class Logout extends HttpServlet {
 		out.write("if(a){");
 		out.write("location.href='index.jsp';}");
 		out.write("else{");
-		out.write("alert('谁让你点的，告辞'); ");
+		out.write("alert('彩蛋！这里点击取消后个人信息也没了，解决不了'); ");
 		out.write("location.href='index.jsp';}");
 		out.write("</script>");
 	}
